@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoganJTeeple</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Logan Teeple</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Logan Teeple</h2>
+    <p>I’m a Mechanical engineer specializing in Aerospace. I love making things fly and have been doing so for years.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <!-- Project Tile -->
+      <div class="tile" data-project="Pelican GEV">
+        <img src="assets/Pelican1.png" alt="Project 1">
+        <h3>Pelican GEV</h3>
+      </div>
+
+      <div class="tile" data-project="SAE Baja Gearbox">
+        <img src="assets/Gearbox1.png" alt="Project 2">
+        <h3>SAE Baja Gearbox</h3>
+      </div>
+
+      <div class="tile" data-project="Wing for sUAS Plane">
+        <img src="assets/Wing1.png" alt="Project 3">
+        <h3>Wing for sUAS Plane</h3>
+      </div>
+
+      <div class="tile" data-project="Teeps V1">
+        <img src="assets/V1_1.JPG" alt="Project 4">
+        <h3>Teeps V1</h3>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="assets/resume.pdf" target="_blank">Download Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your@email.com">loganjteeple@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">View Profile</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LoganJTeeple</p>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal" id="project-modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-body">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
