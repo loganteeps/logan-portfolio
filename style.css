@@ -186,4 +186,5 @@ h2 {
   padding: 0;
   cursor: pointer;
   border-radius: 50%;
-  z-in
+  z-index: 10;
+}
