@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flying Experience - LoganJTeeple</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Modal (shared across pages) -->
+  <div class="modal" id="project-modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-body">
+        <!-- Filled dynamically by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <h1>Logan Teeple</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="flying.html" class="active">Flying Experience</a></li>
+        <li><a href="cents.html">My Two Cents</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="flying">
+    <h2>Flying Experience</h2>
+    <p>
+      I have loved planes since I first watched WWII warbird documentaries and heard stories of my great grandfather flying Spitfires, so it was an absolute thrill when I first took the controls of a Cessna 172 at age 16 out of Miami. While obviously a far cry from a Spitfire, I was hooked. I continued flying in Florida, and completed my first solo there before finishing my license out of SoCal’s John Wayne airport, one of the busiest class Charlies in the country. I had the opportunity to take off and land next to A320s and 767s, while dodging their wake turbulence. My first solo cross country flights were through LAX airspace. Since earning my private pilot license, I have flown in New England from Boston to Martha’s Vineyard, hopped around the Keys and Bahamas from Miami, and navigated 14 different airports in California. I feel fortunate to have had these experiences, and I look forward to more flying.
+    </p>
+
+    <div class="grid">
+      <div class="tile" data-project="First Solo">
+        <img src="assets/flying1.jpg" alt="Flying Image">
+        <h3>First Solo</h3>
+      </div>
+
+      <div class="tile" data-project="Cessna 172">
+        <img src="assets/C172.jpg" alt="Flying Image">
+        <h3>Cessna 172</h3>
+      </div>
+
+      <div class="tile" data-project="Grumman AA5-B Tiger">
+        <img src="assets/tiger.png" alt="Flying Image">
+        <h3>Grumman AA5-B Tiger</h3>
+      </div>
+
+      <div class="tile" data-project="Diamond DA40">
+        <img src="assets/DA40.jpeg" alt="Flying Image">
+        <h3>Diamond DA40</h3>
+      </div>
+
+      <div class="tile" data-project="Cessna 206">
+        <img src="assets/C206.jpg" alt="Flying Image">
+        <h3>Cessna 206</h3>
+      </div>
+
+      <div class="tile" data-project="Cessna 208 Caravan">
+        <img src="assets/c208.png" alt="Flying Image">
+        <h3>Cessna 208 Caravan</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LoganJTeeple</p>
+  </footer>
+
+  <!-- Script for modal functionality -->
+  <script src="script.js"></script>
+</body>
+</html>

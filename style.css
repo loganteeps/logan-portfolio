@@ -1,6 +1,6 @@
 /* Base Layout */
 body {
-  font-family: 'Poppins', sans-serif; /* updated font */
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   background: #fafafa;
@@ -10,12 +10,15 @@ body {
 
 /* Header */
 header {
-  background-color: #0a2342;  /* navy blue */
+  background-color: #0a2342;
   color: white;
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 header h1 {
@@ -40,7 +43,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffcc00; /* subtle accent on hover */
+  color: #ffcc00;
 }
 
 /* Sections */
@@ -89,55 +92,85 @@ h2 {
 
 /* Animations */
 @keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .tile:nth-child(1) { animation-delay: 0.1s; }
 .tile:nth-child(2) { animation-delay: 0.2s; }
 .tile:nth-child(3) { animation-delay: 0.3s; }
 
-/* Modal Styling */
 .modal {
   display: none;
   position: fixed;
   z-index: 1000;
-  left: 0; top: 0;
-  width: 100%; height: 100%;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
   background: rgba(0,0,0,0.8);
   justify-content: center;
   align-items: center;
-  opacity: 0;
-  transition: opacity 0.4s ease;
+  overflow: auto; /* allow modal to scroll if content is too tall */
 }
 
 .modal.show {
   display: flex;
-  opacity: 1;
 }
 
+/* Centered modal content with rounded corners */
 .modal-content {
   background: white;
-  padding: 20px;
   border-radius: 12px;
   max-width: 800px;
   width: 90%;
+  max-height: 90%; /* will allow scrolling */
+  margin: auto;    /* keeps modal vertically centered */
+  padding: 20px;
+  box-sizing: border-box;
   position: relative;
-  transform: translateY(40px);
-  opacity: 0;
-  transition: all 0.4s ease;
+  overflow: auto;  /* scroll inside the modal */
 }
+
 
 .modal.show .modal-content {
   transform: translateY(0);
   opacity: 1;
 }
+
+.modal-content img,
+.modal-content .video-container,
+.modal-content .pdf-container {
+  width: 100%;
+  max-height: 600px;      /* limit height */
+  object-fit: contain;     /* prevents stretching */
+  border-radius: 12px;     /* same as modal corners */
+}
+
+/* Make iframe inside pdf-container or video-container inherit border radius */
+.pdf-container iframe,
+.video-container iframe {
+  border-radius: 12px;
+}
+
+/* Wrap all modal media in a container with rounded corners */
+.modal-content > .carousel > img,
+.modal-content > .carousel > .video-container,
+.modal-content > .carousel > .pdf-container {
+  border-radius: 12px;
+  overflow: hidden;
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 20px; /* spacing below each media item */
+}
+
+/* Ensure iframe inherits border-radius */
+.video-container iframe,
+.pdf-container iframe {
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+
 
 .close {
   position: absolute;
@@ -155,19 +188,23 @@ h2 {
   margin: 20px 0;
 }
 
-.carousel img {
-  width: 100%;
+/* Only show active element */
+.carousel img,
+.carousel .video-container,
+.carousel .pdf-container {
   display: none;
 }
 
-.carousel img.active {
+.carousel img.active,
+.carousel .video-container.active,
+.carousel .pdf-container.active {
   display: block;
   animation: fadeIn 0.5s ease-in-out;
 }
 
 @keyframes fadeIn {
   from { opacity: 0; }
-  to { opacity: 1; }
+  to   { opacity: 1; }
 }
 
 /* Carousel arrow buttons */
@@ -183,8 +220,115 @@ h2 {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  padding: 0;
   cursor: pointer;
   border-radius: 50%;
   z-index: 10;
+}
+
+.carousel .arrow.left { left: 10px; }
+.carousel .arrow.right { right: 10px; }
+
+/* YouTube video in carousel */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: 0;
+  border-radius: 10px;
+}
+
+/* PDF inside carousel */
+.pdf-container {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.pdf-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* About Section */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.about-image img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.about-text p {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Responsive layout for tablets/phones */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .about-image img {
+    width: 180px;
+  }
+
+  .about-text {
+    flex: unset;
+  }
+}
+
+/* Centered and minimal links */
+#resume, #contact {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.simple-link {
+  display: block;          
+  font-size: 2rem;         /* large, heading-like size */
+  font-weight: 600;
+  color: #0a2342;          
+  text-decoration: none;
+  margin: 10px 0;
+  transition: color 0.3s;
+}
+
+.simple-link:hover {
+  color: #ffcc00;          
 }

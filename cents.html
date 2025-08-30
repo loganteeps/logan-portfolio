@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Two Cents - LoganJTeeple</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Logan Teeple</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="flying.html">Flying Experience</a></li>
+        <li><a href="cents.html">My Two Cents</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="cents">
+    <h2>My Two Cents</h2>
+    <p>This page holds a few of my thoughts on a few things: from education, to the future of aircraft design.</p>
+    <div class="grid">
+      <!-- PDF Tile -->
+      <div class="tile" data-project="The Future of Commercial Airplane Design">
+        <img src="assets/AER1.png" >
+        <h3>The Future of Commercial Airplane Design</h3>
+      </div>
+
+      <!-- YouTube Tile -->
+      <div class="tile" data-project="TEDx Talk on Experiential Education">
+        <img src="assets/tedxlaguna.png" >
+        <h3>TEDx Talk on Experiential Education</h3>
+      </div>
+
+      <!-- Text Tile -->
+      <div class="tile" data-project="Engineering Philosophy">
+        <h3>Engineering Philosophy</h3>
+        <p>Another snippet here...</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LoganJTeeple</p>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal" id="project-modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-body">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Script at the end ensures tiles exist before JS runs -->
+  <script src="script.js"></script>
+
+</body>
+</html>

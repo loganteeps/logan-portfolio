@@ -10,13 +10,37 @@
 <body>
   <header>
     <h1>Logan Teeple</h1>
-    
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="flying.html">Flying Experience</a></li>
+        <li><a href="cents.html">My Two Cents</a></li>
+      </ul>
+    </nav>
   </header>
 
   <section id="about">
-    <h2>About me</h2>
-    <p>I’m a Mechanical engineer specializing in Aerospace. I love making things fly and have been doing so for years.</p>
-  </section>
+  <div class="about-container">
+    <!-- Left side: picture -->
+    <div class="about-image">
+      <img src="assets/profile.jpg" alt="Logan Teeple" />
+    </div>
+
+    <!-- Right side: text -->
+    <div class="about-text">
+      
+      <h3>
+        I am a mechanical engineering student at Olin College of Engineering. 
+        I am passionate about aerospace and aviation, and making things fly. 
+        I pursue this passion through my flying career, and at Olin, I am the Aerodynamics Lead for the Olin AERO sUAS Team. 
+        In addition to aviation, I am on the drivetrain sub-team of Olin Baja. 
+        Outside of engineering, my great passions are surfing (and building surfboards), 
+        sailing, skiing, and scuba diving. I enjoy sharing my passion for STEM through 
+        tutoring math and science to High School and Middle School students.
+      </h3>
+    </div>
+  </div>
+</section>
 
   <section id="projects">
     <h2>Projects</h2>
@@ -40,21 +64,30 @@
       <div class="tile" data-project="Teeps V1">
         <img src="assets/V1_1.JPG" alt="Project 4">
         <h3>Teeps V1</h3>
-
       </div>
+
+      <div class="tile" data-project="Linear Algebra in Finite Element Analysis">
+        <img src="assets/FEA_QEA.png" alt="Project 5">
+        <h3>Linear Algebra in Finite Element Analysis</h3>
+      </div>
+
+      <div class="tile" data-project="Gradient Descent Flight Path Algorithm">
+        <img src="assets/Algorithm1.png" alt="Project 6">
+        <h3>Gradient Descent Flight Path Algorithm</h3>
+      </div>
+
     </div>
   </section>
 
   <section id="resume">
-    <h2>Resume</h2>
-    <a href="assets/Resume.pdf" target="_blank">Resume</a>
-  </section>
+  <a href="assets/Resume.pdf" target="_blank" class="simple-link">Resume</a>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:your@email.com">loganjteeple@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/loganteeple/" target="_blank">View Profile</a></p>
-  </section>
+<section id="contact">
+  <a href="mailto:loganjteeple@gmail.com" class="simple-link">Email Me</a>
+  <a href="https://www.linkedin.com/in/loganteeple/" target="_blank" class="simple-link">LinkedIn</a>
+</section>
+
 
   <footer>
     <p>&copy; 2025 LoganJTeeple</p>
