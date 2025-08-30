@@ -42,6 +42,11 @@ const projects = {
     description: "My first deep dive into aerospace engineering, this project explored the next generation of aircraft design and the challenges of increasing efficiency and sustainability in the aerospace industry.",
     images: ["assets/AER1.pdf"]
   },
+  "Home Essay": {
+    title: "Home Essay",
+    description: "An essay on home as a metaphor for one's comfort zone.",
+    images: ["assets/Home.pdf"]
+  },
   "Gradient Descent Flight Path Algorithm": {
     title: "Gradient Descent Flight Path Algorithm",
     description: "An objective and risk balancing flight path algorithm for Olin AERO's sUAS plane. Implemented in Python, the algorithm calculates a rejection vector from boundaries based on proximity and relative heading. Then, it does a linear combination with a goal vector and progressively nears goal waypoint. Automatically splines paths between multiple waypoints in order.",
