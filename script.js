@@ -54,27 +54,27 @@ const projects = {
   },
   "Cessna 172": {
     title: "Cessna 172",
-    description: "Flying experience in a Cessna 172.",
+    description: "I have 140 hours in Cessna 172s in Socal, Florida, and Massachusetts.",
     images: ["assets/C172.jpg"]
   },
   "Grumman AA5-B Tiger": {
     title: "Grumman AA5-B Tiger",
-    description: "Flying the Grumman AA5-B Tiger.",
+    description: "I have about 10 hours flying the Grumman AA5-B Tiger.",
     images: ["assets/tiger.png"]
   },
   "Diamond DA40": {
     title: "Diamond DA40",
-    description: "Experience with the Diamond DA40 aircraft.",
+    description: "The DA40 was my first time flying a FADEC, and stick aircraft.",
     images: ["assets/DA40.jpeg"]
   },
   "Cessna 206": {
     title: "Cessna 206",
-    description: "Flying the rugged and versatile Cessna 206.",
+    description: "I have about 4 hours flying the rugged and versatile Cessna 206 in the Florida Keys",
     images: ["assets/C206.jpg"]
   },
   "Cessna 208 Caravan": {
     title: "Cessna 208 Caravan",
-    description: "Flying experience in the larger Cessna 208 Caravan.",
+    description: "I have about 2 hours flying the Caravan to the Bahamas.",
     images: ["assets/c208.png"]
   }
 
