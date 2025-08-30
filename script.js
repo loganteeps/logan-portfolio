@@ -42,6 +42,11 @@ const projects = {
     description: "My first deep dive into aerospace engineering, this project explored the next generation of aircraft design and the challenges of increasing efficiency and sustainability in the aerospace industry.",
     images: ["assets/AER1.pdf"]
   },
+  "Quotes I live By": {
+    title: "Quotes I live By",
+    description: "Don't miss the same way twice - Ed Hip Little things done well is the key to success - John Wooden Slow is smooth, smooth is fast - My ex-SEAL father",
+    images: ["assets/e.pdf"]
+  },
   "Home Essay": {
     title: "Home Essay",
     description: "An essay on home as a metaphor for one's comfort zone.",
