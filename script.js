@@ -45,7 +45,7 @@ const projects = {
   "Gradient Descent Flight Path Algorithm": {
     title: "Gradient Descent Flight Path Algorithm",
     description: "An objective and risk balancing flight path algorithm for Olin AERO's sUAS plane. Implemented in Python, the algorithm calculates a rejection vector from boundaries based on proximity and relative heading. Then, it does a linear combination with a goal vector and progressively nears goal waypoint. Automatically splines paths between multiple waypoints in order.",
-    images: ["assets/algorithm1.png"]
+    images: ["assets/Algorithm1.png"]
   },
   "First Solo": {
     title: "First Solo",
