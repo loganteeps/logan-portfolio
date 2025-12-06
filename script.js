@@ -34,7 +34,7 @@ const projects = {
   },
   "Optimizing Steak Cooking with Thermodynamics": {
     title: "Optimizing Steak Cooking with Thermodynamics",
-    description: "A thermodynamics model to optimize steak cooking time implemented in MATLAB. The model was varified with an experiement cooking real steaks.",
+    description: "A thermodynamics model to optimize steak cooking time implemented in MATLAB. The model was varified with an experiment cooking real steaks.",
     images: ["assets/Thermo1.pdf"]
   },
   "TEDx Talk on Experiential Education": {
