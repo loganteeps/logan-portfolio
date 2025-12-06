@@ -32,6 +32,11 @@ const projects = {
     description: "For my Quantitative Engineering Analysis 1 final project, Bradford, Aaditya, and I implemented a Finite Element Analysis solver in MATLAB, then validated our results by Instron machine strain testing a 3D printed part.",
     images: ["assets/FEA_QEA.pdf"]
   },
+  "Optimizing Steak Cooking with Thermodynamics": {
+    title: "Optimizing Steak Cooking with Thermodynamics",
+    description: "A thermoddynamic model to optimize steak cooking time implemented in MATLAB. The model was varified with an experiement cooking real steaks.",
+    images: ["assets/Thermo1.pdf"]
+  },
   "TEDx Talk on Experiential Education": {
     title: "TEDx Talk on Experiential Education",
     description: "Ignited by his experience with project based learning, high school student Logan Teeple explains how his journey serves as a model for other experiential education programs.",
