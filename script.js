@@ -20,12 +20,12 @@ const projects = {
   "Wing for sUAS Plane": {
     title: "Wing for sUAS Plane",
     description: "Balsa wood and Monokote wing for Olin AERO's sUAS plane. Designed in Onshape and constructed with a custom jig to ensure accuracy and repeatability. Integrated with wing mounted motors and ESCs.",
-    images: ["assets/Wing1.png", "assets/Wing2.png", "assets/Wing3.JPG", "assets/Wing4.png", "assets/Wing5.JPG"]
+    images: ["assets/Wing1.png", "assets/Wing2.png", "assets/Wing3.JPG", "assets/Wing4.JPG", "assets/Wing5.JPG"]
   },
   "Heavy Lift Octocopter": {
     title: "Heavy Lift Octocopter",
     description: "175 kg heavy lift octocopter for fire suppression. Machined custom test rig for Instron test to validate composites. Utilizing extensive hand calculations and FEA analysis to optimize performance and efficiency.",
-    images: ["assets/Bad1.png", "assets/Bad2.png", "assets/bad4.png",]
+    images: ["assets/Bad1.png", "assets/Bad2.png", "assets/bad4.JPG",]
   },
   "Teeps V1": {
     title: "Teeps V1",
@@ -35,12 +35,12 @@ const projects = {
   "Quad VTOL Tail Sitter": {
     title: "Quad VTOL Tail Sitter",
     description: "Small scale quad VTOL tail sitter flying wing. It is an interesting challenge as it is basically a quadcopter and a flying wing in one airframe. Designed in Onshape and flown with a Pixhawk flight controller.",
-    images: ["assets/littlewing1.png", "assets/littlewing2.JPG", "assets/littlewing3.JPG"]
+    images: ["assets/littlewing1.png", "assets/littlewing2.JPG", "assets/littlewing3.jpg"]
   },
   "Moon Beam (Golf Cart)": {
     title: "Moon Beam (Golf Cart)",
     description: "I rebuilt and modified an old gas golf cart. I rebuilt the carburetor, fuel system, and electrical system. This was a super fun hands on project that taught me a lot about small engines and automotive systems.",
-    images: ["assets/Moonbeam1.JPG", "assets/Moonbeam2.JPG", "assets/Moonbeam3.JPG"]
+    images: ["assets/Moonbeam1.JPG", "assets/Moonbeam2.JPG", "assets/Moonbeam3.jpg"]
   },
   "Linear Algebra in Finite Element Analysis": {
     title: "Linear Algebra in Finite Element Analysis",
