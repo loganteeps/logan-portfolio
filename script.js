@@ -10,22 +10,37 @@ const projects = {
   "Pelican GEV": {
     title: "Pelican GEV",
     description: "A purpose-built ground effect vehicle designed with biomimicry. Optimized for efficient flight and a fast fabrication timeline, the Pelican is composed of LW-PLA 3D printed parts with carbon fiber tubes for structure.  It is controlled by a Pixhawk flight controller to maintain an optimal cruise height. This is achieved through a Lidar sensor control loop. ",
-    images: ["assets/Pelican1.png", "assets/Pelican2.JPG", "assets/Pelican3.png", "assets/Pelican4.JPG", "assets/Pelican5.JPG", "assets/Pelican6.png"]
+    images: ["assets/Pelican1.png", "assets/Pelican2.JPG", "assets/Pelican3.png", "assets/Pelican4.JPG", "assets/Pelican5.JPG", "assets/Pelican6.png", "assets/Pelican7.JPG"]
   },
   "SAE Baja Gearbox": {
     title: "SAE Baja Gearbox",
     description: "Optimized fixed-ratio gearbox for speed, durability, and torque. Every design decision balanced these objectives in the context of design for manufacturability. ",
-    images: ["assets/Gearbox1.png", "assets/Gearbox2.png", "assets/Gearbox3.png",  "assets/Gearbox4.png"]
+    images: ["assets/Gearbox1.png", "assets/Gearbox2.png", "assets/Gearbox3.png",  "assets/Gearbox4.png", "assets/Gearbox5.jpg"]
   },
   "Wing for sUAS Plane": {
     title: "Wing for sUAS Plane",
     description: "Balsa wood and Monokote wing for Olin AERO's sUAS plane. Designed in Onshape and constructed with a custom jig to ensure accuracy and repeatability. Integrated with wing mounted motors and ESCs.",
-    images: ["assets/Wing1.png", "assets/Wing2.png", "assets/Wing3.JPG", "assets/Wing4.png"]
+    images: ["assets/Wing1.png", "assets/Wing2.png", "assets/Wing3.JPG", "assets/Wing4.png", "assets/Wing5.JPG"]
+  },
+  "Heavy Lift Octocopter": {
+    title: "Heavy Lift Octocopter",
+    description: "175 kg heavy lift octocopter for fire suppression. Machined custom test rig for Instron test to validate composites. Utilizing extensive hand calculations and FEA analysis to optimize performance and efficiency.",
+    images: ["assets/Bad1.png", "assets/Bad2.png", "assets/bad4.png",]
   },
   "Teeps V1": {
     title: "Teeps V1",
     description: "My first airplane design. Optimized for efficiency and additive manufacturability. Teeps V1 was constructed entirely from 3D printed parts. I taught myself XFLR5 and Onshape to design and analyze the aircraft.",
     images: ["assets/V1_1.JPG", "assets/V1_2.JPG", "assets/AER2.pdf"]
+  },
+  "Quad VTOL Tail Sitter": {
+    title: "Quad VTOL Tail Sitter",
+    description: "Small scale quad VTOL tail sitter flying wing. It is an interesting challenge as it is basically a quadcopter and a flying wing in one airframe. Designed in Onshape and flown with a Pixhawk flight controller.",
+    images: ["assets/littlewing1.png", "assets/littlewing2.JPG", "assets/littlewing3.JPG"]
+  },
+  "Moon Beam (Golf Cart)": {
+    title: "Moon Beam (Golf Cart)",
+    description: "I rebuilt and modified an old gas golf cart. I rebuilt the carburetor, fuel system, and electrical system. This was a super fun hands on project that taught me a lot about small engines and automotive systems.",
+    images: ["assets/Moonbeam1.JPG", "assets/Moonbeam2.JPG", "assets/Moonbeam3.JPG"]
   },
   "Linear Algebra in Finite Element Analysis": {
     title: "Linear Algebra in Finite Element Analysis",
