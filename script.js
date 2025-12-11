@@ -45,7 +45,7 @@ const projects = {
   "VTOL Aircraft Prototype": {
     title: "VTOL Aircraft Prototype",
     description: "I build a small VTOL aircraft and got it flying in two days. This was a super fun challenge and exercize in getting a functional minum viable product extremely quickly.",
-    images: ["assets/tuby1.png", "assets/tuby2.jpg", "assets/tuby3.jpg"]
+    images: ["assets/Tuby1.png", "assets/Tuby2.jpg", "assets/Tuby3.jpg"]
   },
   "Custom Longboard": {
     title: "Custom Longboard",
