@@ -42,6 +42,16 @@ const projects = {
     description: "I rebuilt and modified an old gas golf cart. I rebuilt the carburetor, fuel system, and electrical system. This was a super fun hands on project that taught me a lot about small engines and automotive systems.",
     images: ["assets/Moonbeam1.JPG", "assets/Moonbeam2.JPG", "assets/Moonbeam3.jpg"]
   },
+  "VTOL Aircraft Prototype": {
+    title: "VTOL Aircraft Prototype",
+    description: "I build a small VTOL aircraft and got it flying in two days. This was a super fun challenge and exercize in getting a functional minum viable product extremely quickly.",
+    images: ["assets/tuby1.png", "assets/tuby2.jpg", "assets/tuby3.jpg"]
+  },
+  "Custom Longboard": {
+    title: "Custom Longboard",
+    description: "Outside of engineering, I love surfing and water sports. Surfboard shaping is a fascinating art and utilizes my passions for fluid dynamics and composites. This was the second board I have made. It is a 9'2\" single fin log.",
+    images: ["assets/board1.JPG", "assets/board2.JPG", "assets/board3.JPG", "assets/board4.JPG", "assets/board5.JPG"]
+  },
   "Linear Algebra in Finite Element Analysis": {
     title: "Linear Algebra in Finite Element Analysis",
     description: "For my Quantitative Engineering Analysis 1 final project, Bradford, Aaditya, and I implemented a Finite Element Analysis solver in MATLAB, then validated our results by Instron machine strain testing a 3D printed part.",
