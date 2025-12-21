@@ -47,6 +47,11 @@ const projects = {
     description: "I build a small VTOL aircraft and got it flying in two days. This was a super fun challenge and exercize in getting a functional minum viable product extremely quickly.",
     images: ["assets/Tuby1.png", "assets/Tuby2.jpg", "assets/Tuby3.jpg"]
   },
+  "Swashplateless Helicopter": {
+    title: "Swashplateless Helicopter",
+    description: "I designed, built, and successfully tuned a swashplateless helicopter. It achieves full cyclic (pitch and roll) control without actuators. Using the inertia of the blades and a magnetic encoder to measure position, the motor’s speed is modulated as a sinusoid to change the lift vector. I achieved steady hover with hours of PID tuning after weeks of long hours testing and building the helicopter. I wrote the control software and selected and integrated all of the electronics. It required various protocols including I2C, PWM, and DSHOT. It took dozens of mechanical iterations to get a good working solution. ",
+    images: ["assets/heli1.png", "assets/heli2.JPEG", "assets/heli3.jpeg", "assets/heli4.JPEG"]
+  },
   "Custom Longboard": {
     title: "Custom Longboard",
     description: "Outside of engineering, I love surfing and water sports. Surfboard shaping is a fascinating art and utilizes my passions for fluid dynamics and composites. This was the second board I have made. It is a 9'2\" single fin log.",
