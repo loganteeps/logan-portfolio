@@ -10,7 +10,7 @@ const projects = {
   "Pelican GEV": {
     title: "Pelican GEV",
     description: "A purpose-built ground effect vehicle designed with biomimicry. Optimized for efficient flight and a fast fabrication timeline, the Pelican is composed of LW-PLA 3D printed parts with carbon fiber tubes for structure.  It is controlled by a Pixhawk flight controller to maintain an optimal cruise height. This is achieved through a Lidar sensor control loop. ",
-    images: ["assets/Pelican1.png", "assets/Pelican2.JPG", "assets/Pelican3.png", "assets/Pelican4.JPG", "assets/Pelican5.JPG", "assets/Pelican6.png", "assets/Pelican7.JPG"]
+    images: ["assets/peli1.png","assets/Pelican1.png", "assets/Pelican2.JPG", "assets/Pelican3.png", "assets/Pelican4.JPG", "assets/Pelican5.JPG", "assets/Pelican6.png", "assets/Pelican7.JPG"]
   },
   "SAE Baja Gearbox": {
     title: "SAE Baja Gearbox",
