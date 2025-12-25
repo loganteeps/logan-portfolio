@@ -10,7 +10,7 @@ const projects = {
   "Pelican GEV": {
     title: "Pelican GEV",
     description: "A purpose-built ground effect vehicle designed with biomimicry. Optimized for efficient flight and a fast fabrication timeline, the Pelican is composed of LW-PLA 3D printed parts with carbon fiber tubes for structure.  It is controlled by a Pixhawk flight controller to maintain an optimal cruise height. This is achieved through a Lidar sensor control loop. ",
-    images: ["assets/peli1.png","assets/Pelican1.png", "assets/Pelican2.JPG", "assets/Pelican3.png", "assets/Pelican4.JPG", "assets/Pelican5.JPG", "assets/Pelican6.png", "assets/Pelican7.JPG"]
+    images: ["assets/Pelican1.png", "assets/Pelican2.JPG", "assets/Pelican3.png", "assets/Pelican4.JPG", "assets/Pelican5.JPG", "assets/Pelican6.png", "assets/Pelican7.JPG"]
   },
   "SAE Baja Gearbox": {
     title: "SAE Baja Gearbox",
@@ -30,7 +30,7 @@ const projects = {
   "Teeps V1": {
     title: "Teeps V1",
     description: "My first airplane design. Optimized for efficiency and additive manufacturability. Teeps V1 was constructed entirely from 3D printed parts. I taught myself XFLR5 and Onshape to design and analyze the aircraft.",
-    images: ["assets/V1_1.JPG", "assets/V1_2.JPG", "assets/AER2.pdf"]
+    images: ["assets/peli1.png","assets/V1_1.JPG", "assets/V1_2.JPG", "assets/AER2.pdf"]
   },
   "Quad VTOL Tail Sitter": {
     title: "Quad VTOL Tail Sitter",
