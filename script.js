@@ -25,7 +25,7 @@ const projects = {
   "Heavy Lift Octocopter": {
     title: "Heavy Lift Octocopter",
     description: "WORK IN PROGRESS: Leading mechanical design and fabrication of 175 kg heavy lift octocopter for fire suppression. This prototype is a balance between strength, weight, cost, and manufacturing complexity. I am utilizing extensive hand calculations and FEA analysis to optimize performance and efficiency. For testing the carbon tubes, I machined a custom test rig for Instron testing which validated composite strength calculations.",
-    images: ["assets/Bad1.png", "assets/Bad2.png", "assets/bad4.jpg",]
+    images: ["assets/Bad1.png", "assets/Bad2.png", "assets/bad4.JPG",]
   },
   "Teeps V1": {
     title: "Teeps V1",
@@ -37,8 +37,8 @@ const projects = {
     description: "Small scale quad VTOL tail sitter flying wing. It is an interesting challenge as it is basically a quadcopter and a flying wing in one airframe. Designed in Onshape and flown with a Pixhawk flight controller.",
     images: ["assets/littlewing1.png", "assets/littlewing2.JPG", "assets/littlewing3.jpg"]
   },
-  "Magnetic Encoder and Controller PCB": {
-    title: "Magnetic Encoder and Controller PCB",
+  "Magnetic Encoder and RP2040 PCB": {
+    title: "Magnetic Encoder and RP2040 PCB",
     description: "Designed and built a custom PCB for a magnetic encoder and RP2040. I used an AS5048A magnetic encoder and RP2040 for their speed and the encoder's accuracy. I connect to the board with USB-C for programming and JST connectors to seemlessly integrate with the flight controller and ESC. This project involved designing the circuit, selecting components, and populating the board. The PCB is for the second version of my swashplateless helicopter project.",
     images: ["assets/Eboard1.png", "assets/Eboard2.png", "assets/Eboard3.png", "assets/Eboard4.png"]
   },
