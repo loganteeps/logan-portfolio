@@ -24,8 +24,8 @@ const projects = {
   },
   "Heavy Lift Octocopter": {
     title: "Heavy Lift Octocopter",
-    description: "WORK IN PROGRESS: Leading mechanical design and fabrication of 175 kg heavy lift octocopter for fire suppression. This prototype is a balance between strength, weight, cost, and manufacturing complexity. I am utilizing extensive hand calculations and FEA analysis to optimize performance and efficiency. For testing the carbon tubes, I machined a custom test rig for Instron testing which validated composite strength calculations.",
-    images: ["assets/Bad1.png", "assets/Bad2.png", "assets/bad4.JPG",]
+    description: "Owned the mechanical design, manufacturing, and flight testing of the heaviest drone (175 kg) ever built and flown by college students, fully self-funded, designed, manufactured, and tested. We designed and manufactured every part, optimizing for weight, cost, and DFM, taking the project from clean-sheet, first-principles design to successful flight in eight months.",
+    images: ["assets/Bad1.png", "assets/HeavyLift_Team.jpg", "assets/HeavyLift_Build.JPEG", "assets/HeavyLift_Flight.jpg",]
   },
   "Teeps V1": {
     title: "Teeps V1",
